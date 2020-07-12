@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: "de.mannodermaus.android-junit5"
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
@@ -53,6 +51,4 @@ dependencies {
     androidTestImplementation "de.mannodermaus.junit5:android-test-core:1.0.0"
     androidTestRuntimeOnly "de.mannodermaus.junit5:android-test-runner:1.0.0"
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    // Kotlin
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
